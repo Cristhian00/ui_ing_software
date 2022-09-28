@@ -1,0 +1,100 @@
+@namespace(uri="ui_concreta", prefix="ui_concreta")
+@gmf
+package ui_concreta;
+
+class ModelFactory {
+	 val UI_Diagram[*] lstUI_Diagrams;
+}
+
+@gmf.diagram
+class UI_Diagram {
+	attr String nombre;
+    val UserInterface userInterface;
+}
+
+@gmf.node(label = "title")
+class UserInterface {
+    attr String title;
+    attr String positionX;
+    attr String positionY;
+    attr String width;
+    attr String heigth;
+    attr String backgroundColor;
+    attr String titleFont;
+    attr String titleFontSize;
+   
+   	@gmf.compartment
+    val ModelElement[*] lstModelElements;   	
+    
+}
+
+abstract class ModelElement  {
+    attr String title;
+    attr String positionX;
+    attr String positionY;
+    attr String width;
+    attr String heigth;
+    attr String backgroundColor;
+    attr String titleFont;
+    attr String titleFontSize;
+}
+
+abstract class GraphicalContainer extends ModelElement {
+	 @gmf.compartment
+	 val ModelElement[*] lstChildModelElements; 
+}
+
+abstract class GraphicalIndividual extends ModelElement {
+	
+}
+
+@gmf.node(figure = "figures.ContainerFigure", label = "title", label.icon = "false", label.placement="none")
+class Container extends GraphicalContainer {
+	
+}
+
+@gmf.node(label = "title")
+class IFrame extends GraphicalContainer {
+	
+}
+
+
+@gmf.node(figure = "figures.LabelFigure", label = "title", label.icon = "false", label.placement="none")
+class Label extends GraphicalIndividual {
+	
+}
+
+@gmf.node(figure = "figures.InputFigure", label = "title", label.icon = "false", label.placement="none")
+class Input extends GraphicalIndividual {
+	
+}
+
+@gmf.node(figure = "figures.ButtonFigure", label = "title", label.icon = "false", label.placement="none")
+class Button extends GraphicalIndividual {
+	
+}
+
+@gmf.node(label = "title")
+class Select extends GraphicalIndividual {
+	
+}
+
+@gmf.node(figure = "figures.TableFigure", label = "title", label.icon = "false", label.placement="none")
+class Table extends GraphicalIndividual {
+	
+}
+
+@gmf.node(figure = "figures.ImgFigure", label = "title", label.icon = "false", label.placement="none")
+class Img extends GraphicalIndividual {
+	
+}
+
+@gmf.node(figure = "figures.BlockquoteFigure", label = "title", label.icon = "false", label.placement="none")
+class Blockquote extends GraphicalIndividual {
+	
+}
+
+@gmf.node(figure = "figures.UlFigure", label = "title", label.icon = "false", label.placement="none")
+class Ul extends GraphicalIndividual {
+	
+}

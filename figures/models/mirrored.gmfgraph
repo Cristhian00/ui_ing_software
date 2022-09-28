@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="ASCII"?>
+<gmfgraph:Canvas xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gmfgraph="http://www.eclipse.org/gmf/2006/GraphicalDefinition" name="ui_concreta">
+  <figures name="Default" implementationBundle="figures">
+    <descriptors name="UserInterfaceFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="figures.UserInterfaceFigure">
+        <customChildren accessor="getFigureUserInterfaceLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+        <customChildren accessor="getUserInterfaceLstModelElementsCompartmentFigure">
+          <typedFigure xsi:type="gmfgraph:Rectangle"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureUserInterfaceLabelFigure" figure="//@figures.0/@descriptors.0/@actualFigure/@customChildren.0/@typedFigure"/>
+      <accessors accessor="getUserInterfaceLstModelElementsCompartmentFigure" figure="//@figures.0/@descriptors.0/@actualFigure/@customChildren.1/@typedFigure"/>
+    </descriptors>
+    <descriptors name="ContainerFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="figures.ContainerFigure">
+        <customChildren accessor="getFigureContainerLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+        <customChildren accessor="getContainerLstChildModelElementsCompartmentFigure">
+          <typedFigure xsi:type="gmfgraph:Rectangle"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureContainerLabelFigure" figure="//@figures.0/@descriptors.1/@actualFigure/@customChildren.0/@typedFigure"/>
+      <accessors accessor="getContainerLstChildModelElementsCompartmentFigure" figure="//@figures.0/@descriptors.1/@actualFigure/@customChildren.1/@typedFigure"/>
+    </descriptors>
+    <descriptors name="IFrameFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="figures.IFrameFigure">
+        <customChildren accessor="getFigureIFrameLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+        <customChildren accessor="getIFrameLstChildModelElementsCompartmentFigure">
+          <typedFigure xsi:type="gmfgraph:Rectangle"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureIFrameLabelFigure" figure="//@figures.0/@descriptors.2/@actualFigure/@customChildren.0/@typedFigure"/>
+      <accessors accessor="getIFrameLstChildModelElementsCompartmentFigure" figure="//@figures.0/@descriptors.2/@actualFigure/@customChildren.1/@typedFigure"/>
+    </descriptors>
+    <descriptors name="LabelFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="figures.LabelFigure">
+        <customChildren accessor="getFigureLabelLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureLabelLabelFigure" figure="//@figures.0/@descriptors.3/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="InputFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="figures.InputFigure">
+        <customChildren accessor="getFigureInputLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureInputLabelFigure" figure="//@figures.0/@descriptors.4/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="ButtonFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="figures.ButtonFigure">
+        <customChildren accessor="getFigureButtonLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureButtonLabelFigure" figure="//@figures.0/@descriptors.5/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="SelectFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="figures.SelectFigure">
+        <customChildren accessor="getFigureSelectLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureSelectLabelFigure" figure="//@figures.0/@descriptors.6/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="TableFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="figures.TableFigure">
+        <customChildren accessor="getFigureTableLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureTableLabelFigure" figure="//@figures.0/@descriptors.7/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="ImgFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="figures.ImgFigure">
+        <customChildren accessor="getFigureImgLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureImgLabelFigure" figure="//@figures.0/@descriptors.8/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="BlockquoteFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="figures.BlockquoteFigure">
+        <customChildren accessor="getFigureBlockquoteLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureBlockquoteLabelFigure" figure="//@figures.0/@descriptors.9/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+    <descriptors name="UlFigure">
+      <actualFigure xsi:type="gmfgraph:CustomFigure" qualifiedClassName="figures.UlFigure">
+        <customChildren accessor="getFigureUlLabelFigure">
+          <typedFigure xsi:type="gmfgraph:Label"/>
+        </customChildren>
+      </actualFigure>
+      <accessors accessor="getFigureUlLabelFigure" figure="//@figures.0/@descriptors.10/@actualFigure/@customChildren.0/@typedFigure"/>
+    </descriptors>
+  </figures>
+  <nodes name="UserInterface" figure="UserInterfaceFigure"/>
+  <nodes name="Container" figure="ContainerFigure"/>
+  <nodes name="IFrame" figure="IFrameFigure"/>
+  <nodes name="Label" figure="LabelFigure"/>
+  <nodes name="Input" figure="InputFigure"/>
+  <nodes name="Button" figure="ButtonFigure"/>
+  <nodes name="Select" figure="SelectFigure"/>
+  <nodes name="Table" figure="TableFigure"/>
+  <nodes name="Img" figure="ImgFigure"/>
+  <nodes name="Blockquote" figure="BlockquoteFigure"/>
+  <nodes name="Ul" figure="UlFigure"/>
+  <compartments name="UserInterfaceLstModelElementsCompartment" figure="UserInterfaceFigure" collapsible="true" accessor="//@figures.0/@descriptors.0/@accessors.1"/>
+  <compartments name="ContainerLstChildModelElementsCompartment" figure="ContainerFigure" collapsible="true" accessor="//@figures.0/@descriptors.1/@accessors.1"/>
+  <compartments name="IFrameLstChildModelElementsCompartment" figure="IFrameFigure" collapsible="true" accessor="//@figures.0/@descriptors.2/@accessors.1"/>
+  <labels name="UserInterfaceLabel" figure="UserInterfaceFigure" accessor="//@figures.0/@descriptors.0/@accessors.0"/>
+  <labels name="ContainerLabel" figure="ContainerFigure" accessor="//@figures.0/@descriptors.1/@accessors.0"/>
+  <labels name="IFrameLabel" figure="IFrameFigure" accessor="//@figures.0/@descriptors.2/@accessors.0"/>
+  <labels name="LabelLabel" figure="LabelFigure" accessor="//@figures.0/@descriptors.3/@accessors.0"/>
+  <labels name="InputLabel" figure="InputFigure" accessor="//@figures.0/@descriptors.4/@accessors.0"/>
+  <labels name="ButtonLabel" figure="ButtonFigure" accessor="//@figures.0/@descriptors.5/@accessors.0"/>
+  <labels name="SelectLabel" figure="SelectFigure" accessor="//@figures.0/@descriptors.6/@accessors.0"/>
+  <labels name="TableLabel" figure="TableFigure" accessor="//@figures.0/@descriptors.7/@accessors.0"/>
+  <labels name="ImgLabel" figure="ImgFigure" accessor="//@figures.0/@descriptors.8/@accessors.0"/>
+  <labels name="BlockquoteLabel" figure="BlockquoteFigure" accessor="//@figures.0/@descriptors.9/@accessors.0"/>
+  <labels name="UlLabel" figure="UlFigure" accessor="//@figures.0/@descriptors.10/@accessors.0"/>
+</gmfgraph:Canvas>

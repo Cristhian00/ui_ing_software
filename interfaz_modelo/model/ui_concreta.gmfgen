@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmfgen:GenEditorGenerator xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gmfgen="http://www.eclipse.org/gmf/2009/GenModel" copyrightText="">
+  <diagram visualID="1000" editPartClassName="UI_DiagramEditPart" itemSemanticEditPolicyClassName="UI_DiagramItemSemanticEditPolicy" canonicalEditPolicyClassName="UI_DiagramCanonicalEditPolicy" iconProviderPriority="Low" validationProviderPriority="Low" validationEnabled="true" validationDecorators="true" liveValidationUIFeedback="true">
+    <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Diagram"/>
+    <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="UI_DiagramEditHelper"/>
+    <viewmap xsi:type="gmfgen:FigureViewmap" figureQualifiedClassName="org.eclipse.draw2d.FreeformLayer"/>
+    <containsShortcutsTo>ui_concreta</containsShortcutsTo>
+    <shortcutsProvidedFor>ui_concreta</shortcutsProvidedFor>
+    <domainDiagramElement href="ui_concreta.genmodel#//ui_concreta/UI_Diagram"/>
+    <childNodes visualID="3001" editPartClassName="ContainerEditPart" itemSemanticEditPolicyClassName="ContainerItemSemanticEditPolicy" canonicalEditPolicyClassName="ContainerCanonicalEditPolicy" compartments="//@diagram/@compartments.1" graphicalNodeEditPolicyClassName="ContainerGraphicalNodeEditPolicy" createCommandClassName="ContainerCreateCommand" containers="//@diagram/@compartments.0">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="ContainerEditHelper"/>
+      <viewmap xsi:type="gmfgen:InnerClassViewmap" className="ContainerFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class ContainerFigure extends figures.ContainerFigure {&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.draw2d.RectangleFigure fContainerLstChildModelElementsCompartmentFigure; &#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public ContainerFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;createContents();&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private void createContents(){&#xA;&#xA;&#xA;fContainerLstChildModelElementsCompartmentFigure = new org.eclipse.draw2d.RectangleFigure();&#xA;&#xA;fContainerLstChildModelElementsCompartmentFigure.setOutline(false);&#xA;&#xA;this.add(fContainerLstChildModelElementsCompartmentFigure);&#xA;&#xA;&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.draw2d.RectangleFigure getContainerLstChildModelElementsCompartmentFigure() {&#xA;&#x9;&#x9;return fContainerLstChildModelElementsCompartmentFigure;&#xA;&#x9;}&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
+      <behaviour xsi:type="gmfgen:OpenDiagramBehaviour"/>
+      <modelFacet>
+        <metaClass href="ui_concreta.genmodel#//ui_concreta/Container"/>
+        <containmentMetaFeature href="ui_concreta.genmodel#//ui_concreta/UserInterface/lstModelElements"/>
+        <childMetaFeature href="ui_concreta.genmodel#//ui_concreta/UserInterface/lstModelElements"/>
+      </modelFacet>
+    </childNodes>
+    <childNodes visualID="3002" editPartClassName="Container2EditPart" itemSemanticEditPolicyClassName="Container2ItemSemanticEditPolicy" canonicalEditPolicyClassName="Container2CanonicalEditPolicy" compartments="//@diagram/@compartments.2" graphicalNodeEditPolicyClassName="Container2GraphicalNodeEditPolicy" createCommandClassName="Container2CreateCommand" containers="//@diagram/@compartments.2 //@diagram/@compartments.3 //@diagram/@compartments.1 //@diagram/@compartments.4">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:SpecializationType" metamodelType="//@diagram/@childNodes.0/@elementType"/>
+      <viewmap xsi:type="gmfgen:InnerClassViewmap" className="ContainerFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class ContainerFigure extends figures.ContainerFigure {&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.draw2d.RectangleFigure fContainerLstChildModelElementsCompartmentFigure; &#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public ContainerFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;createContents();&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private void createContents(){&#xA;&#xA;&#xA;fContainerLstChildModelElementsCompartmentFigure = new org.eclipse.draw2d.RectangleFigure();&#xA;&#xA;fContainerLstChildModelElementsCompartmentFigure.setOutline(false);&#xA;&#xA;this.add(fContainerLstChildModelElementsCompartmentFigure);&#xA;&#xA;&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.draw2d.RectangleFigure getContainerLstChildModelElementsCompartmentFigure() {&#xA;&#x9;&#x9;return fContainerLstChildModelElementsCompartmentFigure;&#xA;&#x9;}&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
+      <behaviour xsi:type="gmfgen:OpenDiagramBehaviour"/>
+      <modelFacet>
+        <metaClass href="ui_concreta.genmodel#//ui_concreta/Container"/>
+        <containmentMetaFeature href="ui_concreta.genmodel#//ui_concreta/GraphicalContainer/lstChildModelElements"/>
+        <childMetaFeature href="ui_concreta.genmodel#//ui_concreta/GraphicalContainer/lstChildModelElements"/>
+      </modelFacet>
+    </childNodes>
+    <childNodes visualID="3003" editPartClassName="IFrameEditPart" itemSemanticEditPolicyClassName="IFrameItemSemanticEditPolicy" canonicalEditPolicyClassName="IFrameCanonicalEditPolicy" compartments="//@diagram/@compartments.3" graphicalNodeEditPolicyClassName="IFrameGraphicalNodeEditPolicy" createCommandClassName="IFrameCreateCommand" containers="//@diagram/@compartments.3 //@diagram/@compartments.2 //@diagram/@compartments.1 //@diagram/@compartments.4">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="IFrameEditHelper"/>
+      <viewmap xsi:type="gmfgen:InnerClassViewmap" className="IFrameFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class IFrameFigure extends org.eclipse.draw2d.RoundedRectangle {&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel fFigureIFrameLabelFigure; &#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.draw2d.RectangleFigure fIFrameLstChildModelElementsCompartmentFigure; &#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public IFrameFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setCornerDimensions(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(8)&#xA;, getMapMode().DPtoLP(8)&#xA;));&#xA;this.setBorder(new org.eclipse.draw2d.MarginBorder(getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;));&#xA;&#x9;&#x9;createContents();&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private void createContents(){&#xA;&#xA;&#xA;fFigureIFrameLabelFigure = new org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel();&#xA;&#xA;fFigureIFrameLabelFigure.setText(&quot;IFrame&quot;);&#xA;fFigureIFrameLabelFigure.setMaximumSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(10000)&#xA;, getMapMode().DPtoLP(50)&#xA;));&#xA;&#xA;this.add(fFigureIFrameLabelFigure);&#xA;&#xA;&#xA;&#xA;fIFrameLstChildModelElementsCompartmentFigure = new org.eclipse.draw2d.RectangleFigure();&#xA;&#xA;fIFrameLstChildModelElementsCompartmentFigure.setOutline(false);&#xA;&#xA;this.add(fIFrameLstChildModelElementsCompartmentFigure);&#xA;&#xA;&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel getFigureIFrameLabelFigure() {&#xA;&#x9;&#x9;return fFigureIFrameLabelFigure;&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.draw2d.RectangleFigure getIFrameLstChildModelElementsCompartmentFigure() {&#xA;&#x9;&#x9;return fIFrameLstChildModelElementsCompartmentFigure;&#xA;&#x9;}&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
+      <behaviour xsi:type="gmfgen:OpenDiagramBehaviour"/>
+      <modelFacet>
+        <metaClass href="ui_concreta.genmodel#//ui_concreta/IFrame"/>
+        <containmentMetaFeature href="ui_concreta.genmodel#//ui_concreta/GraphicalContainer/lstChildModelElements"/>
+        <childMetaFeature href="ui_concreta.genmodel#//ui_concreta/GraphicalContainer/lstChildModelElements"/>
+      </modelFacet>
+      <labels visualID="5009" editPartClassName="IFrameTitleEditPart" itemSemanticEditPolicyClassName="IFrameTitleItemSemanticEditPolicy" elementIcon="true">
+        <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+        <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getFigureIFrameLabelFigure" figureQualifiedClassName="org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel"/>
+        <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
+          <metaFeatures href="ui_concreta.genmodel#//ui_concreta/ModelElement/title"/>
+        </modelFacet>
+      </labels>
+    </childNodes>
+    <childNodes visualID="3004" editPartClassName="LabelEditPart" itemSemanticEditPolicyClassName="LabelItemSemanticEditPolicy" canonicalEditPolicyClassName="LabelCanonicalEditPolicy" graphicalNodeEditPolicyClassName="LabelGraphicalNodeEditPolicy" createCommandClassName="LabelCreateCommand" containers="//@diagram/@compartments.3 //@diagram/@compartments.2 //@diagram/@compartments.1 //@diagram/@compartments.4">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="LabelEditHelper"/>
+      <viewmap xsi:type="gmfgen:FigureViewmap" figureQualifiedClassName="figures.LabelFigure"/>
+      <modelFacet>
+        <metaClass href="ui_concreta.genmodel#//ui_concreta/Label"/>
+        <containmentMetaFeature href="ui_concreta.genmodel#//ui_concreta/GraphicalContainer/lstChildModelElements"/>
+        <childMetaFeature href="ui_concreta.genmodel#//ui_concreta/GraphicalContainer/lstChildModelElements"/>
+      </modelFacet>
+    </childNodes>
+    <childNodes visualID="3005" editPartClassName="InputEditPart" itemSemanticEditPolicyClassName="InputItemSemanticEditPolicy" canonicalEditPolicyClassName="InputCanonicalEditPolicy" graphicalNodeEditPolicyClassName="InputGraphicalNodeEditPolicy" createCommandClassName="InputCreateCommand" containers="//@diagram/@compartments.3 //@diagram/@compartments.2 //@diagram/@compartments.1 //@diagram/@compartments.4">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="InputEditHelper"/>
+      <viewmap xsi:type="gmfgen:FigureViewmap" figureQualifiedClassName="figures.InputFigure"/>
+      <modelFacet>
+        <metaClass href="ui_concreta.genmodel#//ui_concreta/Input"/>
+        <containmentMetaFeature href="ui_concreta.genmodel#//ui_concreta/GraphicalContainer/lstChildModelElements"/>
+        <childMetaFeature href="ui_concreta.genmodel#//ui_concreta/GraphicalContainer/lstChildModelElements"/>
+      </modelFacet>
+    </childNodes>
+    <childNodes visualID="3006" editPartClassName="ButtonEditPart" itemSemanticEditPolicyClassName="ButtonItemSemanticEditPolicy" canonicalEditPolicyClassName="ButtonCanonicalEditPolicy" graphicalNodeEditPolicyClassName="ButtonGraphicalNodeEditPolicy" createCommandClassName="ButtonCreateCommand" containers="//@diagram/@compartments.3 //@diagram/@compartments.2 //@diagram/@compartments.1 //@diagram/@compartments.4">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="ButtonEditHelper"/>
+      <viewmap xsi:type="gmfgen:FigureViewmap" figureQualifiedClassName="figures.ButtonFigure"/>
+      <modelFacet>
+        <metaClass href="ui_concreta.genmodel#//ui_concreta/Button"/>
+        <containmentMetaFeature href="ui_concreta.genmodel#//ui_concreta/GraphicalContainer/lstChildModelElements"/>
+        <childMetaFeature href="ui_concreta.genmodel#//ui_concreta/GraphicalContainer/lstChildModelElements"/>
+      </modelFacet>
+    </childNodes>
+    <childNodes visualID="3007" editPartClassName="SelectEditPart" itemSemanticEditPolicyClassName="SelectItemSemanticEditPolicy" canonicalEditPolicyClassName="SelectCanonicalEditPolicy" graphicalNodeEditPolicyClassName="SelectGraphicalNodeEditPolicy" createCommandClassName="SelectCreateCommand" containers="//@diagram/@compartments.3 //@diagram/@compartments.2 //@diagram/@compartments.1 //@diagram/@compartments.4">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="SelectEditHelper"/>
+      <viewmap xsi:type="gmfgen:InnerClassViewmap" className="SelectFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class SelectFigure extends org.eclipse.draw2d.RoundedRectangle {&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel fFigureSelectLabelFigure; &#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public SelectFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setCornerDimensions(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(8)&#xA;, getMapMode().DPtoLP(8)&#xA;));&#xA;this.setBorder(new org.eclipse.draw2d.MarginBorder(getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;));&#xA;&#x9;&#x9;createContents();&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private void createContents(){&#xA;&#xA;&#xA;fFigureSelectLabelFigure = new org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel();&#xA;&#xA;fFigureSelectLabelFigure.setText(&quot;Select&quot;);&#xA;&#xA;this.add(fFigureSelectLabelFigure);&#xA;&#xA;&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel getFigureSelectLabelFigure() {&#xA;&#x9;&#x9;return fFigureSelectLabelFigure;&#xA;&#x9;}&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
+      <modelFacet>
+        <metaClass href="ui_concreta.genmodel#//ui_concreta/Select"/>
+        <containmentMetaFeature href="ui_concreta.genmodel#//ui_concreta/GraphicalContainer/lstChildModelElements"/>
+        <childMetaFeature href="ui_concreta.genmodel#//ui_concreta/GraphicalContainer/lstChildModelElements"/>
+      </modelFacet>
+      <labels visualID="5004" editPartClassName="SelectTitleEditPart" itemSemanticEditPolicyClassName="SelectTitleItemSemanticEditPolicy" elementIcon="true">
+        <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+        <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getFigureSelectLabelFigure" figureQualifiedClassName="org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel"/>
+        <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
+          <metaFeatures href="ui_concreta.genmodel#//ui_concreta/ModelElement/title"/>
+        </modelFacet>
+      </labels>
+    </childNodes>
+    <childNodes visualID="3008" editPartClassName="TableEditPart" itemSemanticEditPolicyClassName="TableItemSemanticEditPolicy" canonicalEditPolicyClassName="TableCanonicalEditPolicy" graphicalNodeEditPolicyClassName="TableGraphicalNodeEditPolicy" createCommandClassName="TableCreateCommand" containers="//@diagram/@compartments.3 //@diagram/@compartments.2 //@diagram/@compartments.1 //@diagram/@compartments.4">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="TableEditHelper"/>
+      <viewmap xsi:type="gmfgen:FigureViewmap" figureQualifiedClassName="figures.TableFigure"/>
+      <modelFacet>
+        <metaClass href="ui_concreta.genmodel#//ui_concreta/Table"/>
+        <containmentMetaFeature href="ui_concreta.genmodel#//ui_concreta/GraphicalContainer/lstChildModelElements"/>
+        <childMetaFeature href="ui_concreta.genmodel#//ui_concreta/GraphicalContainer/lstChildModelElements"/>
+      </modelFacet>
+    </childNodes>
+    <childNodes visualID="3009" editPartClassName="ImgEditPart" itemSemanticEditPolicyClassName="ImgItemSemanticEditPolicy" canonicalEditPolicyClassName="ImgCanonicalEditPolicy" graphicalNodeEditPolicyClassName="ImgGraphicalNodeEditPolicy" createCommandClassName="ImgCreateCommand" containers="//@diagram/@compartments.3 //@diagram/@compartments.2 //@diagram/@compartments.1 //@diagram/@compartments.4">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="ImgEditHelper"/>
+      <viewmap xsi:type="gmfgen:FigureViewmap" figureQualifiedClassName="figures.ImgFigure"/>
+      <modelFacet>
+        <metaClass href="ui_concreta.genmodel#//ui_concreta/Img"/>
+        <containmentMetaFeature href="ui_concreta.genmodel#//ui_concreta/GraphicalContainer/lstChildModelElements"/>
+        <childMetaFeature href="ui_concreta.genmodel#//ui_concreta/GraphicalContainer/lstChildModelElements"/>
+      </modelFacet>
+    </childNodes>
+    <childNodes visualID="3010" editPartClassName="BlockquoteEditPart" itemSemanticEditPolicyClassName="BlockquoteItemSemanticEditPolicy" canonicalEditPolicyClassName="BlockquoteCanonicalEditPolicy" graphicalNodeEditPolicyClassName="BlockquoteGraphicalNodeEditPolicy" createCommandClassName="BlockquoteCreateCommand" containers="//@diagram/@compartments.3 //@diagram/@compartments.2 //@diagram/@compartments.1 //@diagram/@compartments.4">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="BlockquoteEditHelper"/>
+      <viewmap xsi:type="gmfgen:FigureViewmap" figureQualifiedClassName="figures.BlockquoteFigure"/>
+      <modelFacet>
+        <metaClass href="ui_concreta.genmodel#//ui_concreta/Blockquote"/>
+        <containmentMetaFeature href="ui_concreta.genmodel#//ui_concreta/GraphicalContainer/lstChildModelElements"/>
+        <childMetaFeature href="ui_concreta.genmodel#//ui_concreta/GraphicalContainer/lstChildModelElements"/>
+      </modelFacet>
+    </childNodes>
+    <childNodes visualID="3011" editPartClassName="UlEditPart" itemSemanticEditPolicyClassName="UlItemSemanticEditPolicy" canonicalEditPolicyClassName="UlCanonicalEditPolicy" graphicalNodeEditPolicyClassName="UlGraphicalNodeEditPolicy" createCommandClassName="UlCreateCommand" containers="//@diagram/@compartments.3 //@diagram/@compartments.2 //@diagram/@compartments.1 //@diagram/@compartments.4">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="UlEditHelper"/>
+      <viewmap xsi:type="gmfgen:FigureViewmap" figureQualifiedClassName="figures.UlFigure"/>
+      <modelFacet>
+        <metaClass href="ui_concreta.genmodel#//ui_concreta/Ul"/>
+        <containmentMetaFeature href="ui_concreta.genmodel#//ui_concreta/GraphicalContainer/lstChildModelElements"/>
+        <childMetaFeature href="ui_concreta.genmodel#//ui_concreta/GraphicalContainer/lstChildModelElements"/>
+      </modelFacet>
+    </childNodes>
+    <childNodes visualID="3012" editPartClassName="IFrame2EditPart" itemSemanticEditPolicyClassName="IFrame2ItemSemanticEditPolicy" canonicalEditPolicyClassName="IFrame2CanonicalEditPolicy" compartments="//@diagram/@compartments.4" graphicalNodeEditPolicyClassName="IFrame2GraphicalNodeEditPolicy" createCommandClassName="IFrame2CreateCommand" containers="//@diagram/@compartments.0">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:SpecializationType" metamodelType="//@diagram/@childNodes.2/@elementType"/>
+      <viewmap xsi:type="gmfgen:InnerClassViewmap" className="IFrameFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class IFrameFigure extends org.eclipse.draw2d.RoundedRectangle {&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel fFigureIFrameLabelFigure; &#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.draw2d.RectangleFigure fIFrameLstChildModelElementsCompartmentFigure; &#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public IFrameFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setCornerDimensions(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(8)&#xA;, getMapMode().DPtoLP(8)&#xA;));&#xA;this.setBorder(new org.eclipse.draw2d.MarginBorder(getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;));&#xA;&#x9;&#x9;createContents();&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private void createContents(){&#xA;&#xA;&#xA;fFigureIFrameLabelFigure = new org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel();&#xA;&#xA;fFigureIFrameLabelFigure.setText(&quot;IFrame&quot;);&#xA;fFigureIFrameLabelFigure.setMaximumSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(10000)&#xA;, getMapMode().DPtoLP(50)&#xA;));&#xA;&#xA;this.add(fFigureIFrameLabelFigure);&#xA;&#xA;&#xA;&#xA;fIFrameLstChildModelElementsCompartmentFigure = new org.eclipse.draw2d.RectangleFigure();&#xA;&#xA;fIFrameLstChildModelElementsCompartmentFigure.setOutline(false);&#xA;&#xA;this.add(fIFrameLstChildModelElementsCompartmentFigure);&#xA;&#xA;&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel getFigureIFrameLabelFigure() {&#xA;&#x9;&#x9;return fFigureIFrameLabelFigure;&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.draw2d.RectangleFigure getIFrameLstChildModelElementsCompartmentFigure() {&#xA;&#x9;&#x9;return fIFrameLstChildModelElementsCompartmentFigure;&#xA;&#x9;}&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
+      <behaviour xsi:type="gmfgen:OpenDiagramBehaviour"/>
+      <modelFacet>
+        <metaClass href="ui_concreta.genmodel#//ui_concreta/IFrame"/>
+        <containmentMetaFeature href="ui_concreta.genmodel#//ui_concreta/UserInterface/lstModelElements"/>
+        <childMetaFeature href="ui_concreta.genmodel#//ui_concreta/UserInterface/lstModelElements"/>
+      </modelFacet>
+      <labels visualID="5012" editPartClassName="IFrameTitle2EditPart" itemSemanticEditPolicyClassName="IFrameTitle2ItemSemanticEditPolicy" elementIcon="true">
+        <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+        <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getFigureIFrameLabelFigure" figureQualifiedClassName="org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel"/>
+        <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
+          <metaFeatures href="ui_concreta.genmodel#//ui_concreta/ModelElement/title"/>
+        </modelFacet>
+      </labels>
+    </childNodes>
+    <childNodes visualID="3013" editPartClassName="Label2EditPart" itemSemanticEditPolicyClassName="Label2ItemSemanticEditPolicy" canonicalEditPolicyClassName="Label2CanonicalEditPolicy" graphicalNodeEditPolicyClassName="Label2GraphicalNodeEditPolicy" createCommandClassName="Label2CreateCommand" containers="//@diagram/@compartments.0">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:SpecializationType" metamodelType="//@diagram/@childNodes.3/@elementType"/>
+      <viewmap xsi:type="gmfgen:FigureViewmap" figureQualifiedClassName="figures.LabelFigure"/>
+      <modelFacet>
+        <metaClass href="ui_concreta.genmodel#//ui_concreta/Label"/>
+        <containmentMetaFeature href="ui_concreta.genmodel#//ui_concreta/UserInterface/lstModelElements"/>
+        <childMetaFeature href="ui_concreta.genmodel#//ui_concreta/UserInterface/lstModelElements"/>
+      </modelFacet>
+    </childNodes>
+    <childNodes visualID="3014" editPartClassName="Input2EditPart" itemSemanticEditPolicyClassName="Input2ItemSemanticEditPolicy" canonicalEditPolicyClassName="Input2CanonicalEditPolicy" graphicalNodeEditPolicyClassName="Input2GraphicalNodeEditPolicy" createCommandClassName="Input2CreateCommand" containers="//@diagram/@compartments.0">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:SpecializationType" metamodelType="//@diagram/@childNodes.4/@elementType"/>
+      <viewmap xsi:type="gmfgen:FigureViewmap" figureQualifiedClassName="figures.InputFigure"/>
+      <modelFacet>
+        <metaClass href="ui_concreta.genmodel#//ui_concreta/Input"/>
+        <containmentMetaFeature href="ui_concreta.genmodel#//ui_concreta/UserInterface/lstModelElements"/>
+        <childMetaFeature href="ui_concreta.genmodel#//ui_concreta/UserInterface/lstModelElements"/>
+      </modelFacet>
+    </childNodes>
+    <childNodes visualID="3015" editPartClassName="Button2EditPart" itemSemanticEditPolicyClassName="Button2ItemSemanticEditPolicy" canonicalEditPolicyClassName="Button2CanonicalEditPolicy" graphicalNodeEditPolicyClassName="Button2GraphicalNodeEditPolicy" createCommandClassName="Button2CreateCommand" containers="//@diagram/@compartments.0">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:SpecializationType" metamodelType="//@diagram/@childNodes.5/@elementType"/>
+      <viewmap xsi:type="gmfgen:FigureViewmap" figureQualifiedClassName="figures.ButtonFigure"/>
+      <modelFacet>
+        <metaClass href="ui_concreta.genmodel#//ui_concreta/Button"/>
+        <containmentMetaFeature href="ui_concreta.genmodel#//ui_concreta/UserInterface/lstModelElements"/>
+        <childMetaFeature href="ui_concreta.genmodel#//ui_concreta/UserInterface/lstModelElements"/>
+      </modelFacet>
+    </childNodes>
+    <childNodes visualID="3016" editPartClassName="Select2EditPart" itemSemanticEditPolicyClassName="Select2ItemSemanticEditPolicy" canonicalEditPolicyClassName="Select2CanonicalEditPolicy" graphicalNodeEditPolicyClassName="Select2GraphicalNodeEditPolicy" createCommandClassName="Select2CreateCommand" containers="//@diagram/@compartments.0">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:SpecializationType" metamodelType="//@diagram/@childNodes.6/@elementType"/>
+      <viewmap xsi:type="gmfgen:InnerClassViewmap" className="SelectFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class SelectFigure extends org.eclipse.draw2d.RoundedRectangle {&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel fFigureSelectLabelFigure; &#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public SelectFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setCornerDimensions(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(8)&#xA;, getMapMode().DPtoLP(8)&#xA;));&#xA;this.setBorder(new org.eclipse.draw2d.MarginBorder(getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;));&#xA;&#x9;&#x9;createContents();&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private void createContents(){&#xA;&#xA;&#xA;fFigureSelectLabelFigure = new org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel();&#xA;&#xA;fFigureSelectLabelFigure.setText(&quot;Select&quot;);&#xA;&#xA;this.add(fFigureSelectLabelFigure);&#xA;&#xA;&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel getFigureSelectLabelFigure() {&#xA;&#x9;&#x9;return fFigureSelectLabelFigure;&#xA;&#x9;}&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
+      <modelFacet>
+        <metaClass href="ui_concreta.genmodel#//ui_concreta/Select"/>
+        <containmentMetaFeature href="ui_concreta.genmodel#//ui_concreta/UserInterface/lstModelElements"/>
+        <childMetaFeature href="ui_concreta.genmodel#//ui_concreta/UserInterface/lstModelElements"/>
+      </modelFacet>
+      <labels visualID="5016" editPartClassName="SelectTitle2EditPart" itemSemanticEditPolicyClassName="SelectTitle2ItemSemanticEditPolicy" elementIcon="true">
+        <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+        <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getFigureSelectLabelFigure" figureQualifiedClassName="org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel"/>
+        <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
+          <metaFeatures href="ui_concreta.genmodel#//ui_concreta/ModelElement/title"/>
+        </modelFacet>
+      </labels>
+    </childNodes>
+    <childNodes visualID="3017" editPartClassName="Table2EditPart" itemSemanticEditPolicyClassName="Table2ItemSemanticEditPolicy" canonicalEditPolicyClassName="Table2CanonicalEditPolicy" graphicalNodeEditPolicyClassName="Table2GraphicalNodeEditPolicy" createCommandClassName="Table2CreateCommand" containers="//@diagram/@compartments.0">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:SpecializationType" metamodelType="//@diagram/@childNodes.7/@elementType"/>
+      <viewmap xsi:type="gmfgen:FigureViewmap" figureQualifiedClassName="figures.TableFigure"/>
+      <modelFacet>
+        <metaClass href="ui_concreta.genmodel#//ui_concreta/Table"/>
+        <containmentMetaFeature href="ui_concreta.genmodel#//ui_concreta/UserInterface/lstModelElements"/>
+        <childMetaFeature href="ui_concreta.genmodel#//ui_concreta/UserInterface/lstModelElements"/>
+      </modelFacet>
+    </childNodes>
+    <childNodes visualID="3018" editPartClassName="Img2EditPart" itemSemanticEditPolicyClassName="Img2ItemSemanticEditPolicy" canonicalEditPolicyClassName="Img2CanonicalEditPolicy" graphicalNodeEditPolicyClassName="Img2GraphicalNodeEditPolicy" createCommandClassName="Img2CreateCommand" containers="//@diagram/@compartments.0">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:SpecializationType" metamodelType="//@diagram/@childNodes.8/@elementType"/>
+      <viewmap xsi:type="gmfgen:FigureViewmap" figureQualifiedClassName="figures.ImgFigure"/>
+      <modelFacet>
+        <metaClass href="ui_concreta.genmodel#//ui_concreta/Img"/>
+        <containmentMetaFeature href="ui_concreta.genmodel#//ui_concreta/UserInterface/lstModelElements"/>
+        <childMetaFeature href="ui_concreta.genmodel#//ui_concreta/UserInterface/lstModelElements"/>
+      </modelFacet>
+    </childNodes>
+    <childNodes visualID="3019" editPartClassName="Blockquote2EditPart" itemSemanticEditPolicyClassName="Blockquote2ItemSemanticEditPolicy" canonicalEditPolicyClassName="Blockquote2CanonicalEditPolicy" graphicalNodeEditPolicyClassName="Blockquote2GraphicalNodeEditPolicy" createCommandClassName="Blockquote2CreateCommand" containers="//@diagram/@compartments.0">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:SpecializationType" metamodelType="//@diagram/@childNodes.9/@elementType"/>
+      <viewmap xsi:type="gmfgen:FigureViewmap" figureQualifiedClassName="figures.BlockquoteFigure"/>
+      <modelFacet>
+        <metaClass href="ui_concreta.genmodel#//ui_concreta/Blockquote"/>
+        <containmentMetaFeature href="ui_concreta.genmodel#//ui_concreta/UserInterface/lstModelElements"/>
+        <childMetaFeature href="ui_concreta.genmodel#//ui_concreta/UserInterface/lstModelElements"/>
+      </modelFacet>
+    </childNodes>
+    <childNodes visualID="3020" editPartClassName="Ul2EditPart" itemSemanticEditPolicyClassName="Ul2ItemSemanticEditPolicy" canonicalEditPolicyClassName="Ul2CanonicalEditPolicy" graphicalNodeEditPolicyClassName="Ul2GraphicalNodeEditPolicy" createCommandClassName="Ul2CreateCommand" containers="//@diagram/@compartments.0">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:SpecializationType" metamodelType="//@diagram/@childNodes.10/@elementType"/>
+      <viewmap xsi:type="gmfgen:FigureViewmap" figureQualifiedClassName="figures.UlFigure"/>
+      <modelFacet>
+        <metaClass href="ui_concreta.genmodel#//ui_concreta/Ul"/>
+        <containmentMetaFeature href="ui_concreta.genmodel#//ui_concreta/UserInterface/lstModelElements"/>
+        <childMetaFeature href="ui_concreta.genmodel#//ui_concreta/UserInterface/lstModelElements"/>
+      </modelFacet>
+    </childNodes>
+    <topLevelNodes visualID="2001" editPartClassName="UserInterfaceEditPart" itemSemanticEditPolicyClassName="UserInterfaceItemSemanticEditPolicy" canonicalEditPolicyClassName="UserInterfaceCanonicalEditPolicy" compartments="//@diagram/@compartments.0" graphicalNodeEditPolicyClassName="UserInterfaceGraphicalNodeEditPolicy" createCommandClassName="UserInterfaceCreateCommand">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <elementType xsi:type="gmfgen:MetamodelType" editHelperClassName="UserInterfaceEditHelper"/>
+      <viewmap xsi:type="gmfgen:InnerClassViewmap" className="UserInterfaceFigure" classBody="&#xA;/**&#xA; * @generated&#xA; */&#xA;public class UserInterfaceFigure extends org.eclipse.draw2d.RoundedRectangle {&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel fFigureUserInterfaceLabelFigure; &#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private org.eclipse.draw2d.RectangleFigure fUserInterfaceLstModelElementsCompartmentFigure; &#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public UserInterfaceFigure() {&#xA;&#x9;&#x9;&#x9;&#x9;this.setCornerDimensions(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(8)&#xA;, getMapMode().DPtoLP(8)&#xA;));&#xA;this.setBorder(new org.eclipse.draw2d.MarginBorder(getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;, getMapMode().DPtoLP(5)&#xA;));&#xA;&#x9;&#x9;createContents();&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;private void createContents(){&#xA;&#xA;&#xA;fFigureUserInterfaceLabelFigure = new org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel();&#xA;&#xA;fFigureUserInterfaceLabelFigure.setText(&quot;UserInterface&quot;);&#xA;fFigureUserInterfaceLabelFigure.setMaximumSize(new org.eclipse.draw2d.geometry.Dimension(getMapMode().DPtoLP(10000)&#xA;, getMapMode().DPtoLP(50)&#xA;));&#xA;&#xA;this.add(fFigureUserInterfaceLabelFigure);&#xA;&#xA;&#xA;&#xA;fUserInterfaceLstModelElementsCompartmentFigure = new org.eclipse.draw2d.RectangleFigure();&#xA;&#xA;fUserInterfaceLstModelElementsCompartmentFigure.setOutline(false);&#xA;&#xA;this.add(fUserInterfaceLstModelElementsCompartmentFigure);&#xA;&#xA;&#xA;&#x9;}&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel getFigureUserInterfaceLabelFigure() {&#xA;&#x9;&#x9;return fFigureUserInterfaceLabelFigure;&#xA;&#x9;}&#xA;&#x9;/**&#xA;&#x9; * @generated&#xA;&#x9; */&#xA;&#x9;public org.eclipse.draw2d.RectangleFigure getUserInterfaceLstModelElementsCompartmentFigure() {&#xA;&#x9;&#x9;return fUserInterfaceLstModelElementsCompartmentFigure;&#xA;&#x9;}&#xA;&#xA;&#xA;}&#xA;&#xA;"/>
+      <behaviour xsi:type="gmfgen:OpenDiagramBehaviour"/>
+      <modelFacet>
+        <metaClass href="ui_concreta.genmodel#//ui_concreta/UserInterface"/>
+        <containmentMetaFeature href="ui_concreta.genmodel#//ui_concreta/UI_Diagram/userInterface"/>
+        <childMetaFeature href="ui_concreta.genmodel#//ui_concreta/UI_Diagram/userInterface"/>
+      </modelFacet>
+      <labels visualID="5021" editPartClassName="UserInterfaceTitleEditPart" itemSemanticEditPolicyClassName="UserInterfaceTitleItemSemanticEditPolicy" elementIcon="true">
+        <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+        <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getFigureUserInterfaceLabelFigure" figureQualifiedClassName="org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel"/>
+        <modelFacet xsi:type="gmfgen:FeatureLabelModelFacet" parser="//@labelParsers/@implementations.0">
+          <metaFeatures href="ui_concreta.genmodel#//ui_concreta/UserInterface/title"/>
+        </modelFacet>
+      </labels>
+    </topLevelNodes>
+    <compartments visualID="7001" editPartClassName="UserInterfaceUserInterfaceLstModelElementsCompartmentEditPart" itemSemanticEditPolicyClassName="UserInterfaceUserInterfaceLstModelElementsCompartmentItemSemanticEditPolicy" canonicalEditPolicyClassName="UserInterfaceUserInterfaceLstModelElementsCompartmentCanonicalEditPolicy" childNodes="//@diagram/@childNodes.0 //@diagram/@childNodes.11 //@diagram/@childNodes.12 //@diagram/@childNodes.13 //@diagram/@childNodes.14 //@diagram/@childNodes.15 //@diagram/@childNodes.16 //@diagram/@childNodes.17 //@diagram/@childNodes.18 //@diagram/@childNodes.19" title="UserInterfaceLstModelElementsCompartment" needsTitle="false" node="//@diagram/@topLevelNodes.0" listLayout="false">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getUserInterfaceLstModelElementsCompartmentFigure" figureQualifiedClassName="org.eclipse.draw2d.RectangleFigure"/>
+    </compartments>
+    <compartments visualID="7002" editPartClassName="ContainerContainerLstChildModelElementsCompartmentEditPart" itemSemanticEditPolicyClassName="ContainerContainerLstChildModelElementsCompartmentItemSemanticEditPolicy" canonicalEditPolicyClassName="ContainerContainerLstChildModelElementsCompartmentCanonicalEditPolicy" childNodes="//@diagram/@childNodes.1 //@diagram/@childNodes.2 //@diagram/@childNodes.3 //@diagram/@childNodes.4 //@diagram/@childNodes.5 //@diagram/@childNodes.6 //@diagram/@childNodes.7 //@diagram/@childNodes.8 //@diagram/@childNodes.9 //@diagram/@childNodes.10" title="ContainerLstChildModelElementsCompartment" needsTitle="false" node="//@diagram/@childNodes.0" listLayout="false">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getContainerLstChildModelElementsCompartmentFigure" figureQualifiedClassName="org.eclipse.draw2d.RectangleFigure"/>
+    </compartments>
+    <compartments visualID="7003" editPartClassName="ContainerContainerLstChildModelElementsCompartment2EditPart" itemSemanticEditPolicyClassName="ContainerContainerLstChildModelElementsCompartment2ItemSemanticEditPolicy" canonicalEditPolicyClassName="ContainerContainerLstChildModelElementsCompartment2CanonicalEditPolicy" childNodes="//@diagram/@childNodes.1 //@diagram/@childNodes.2 //@diagram/@childNodes.3 //@diagram/@childNodes.4 //@diagram/@childNodes.5 //@diagram/@childNodes.6 //@diagram/@childNodes.7 //@diagram/@childNodes.8 //@diagram/@childNodes.9 //@diagram/@childNodes.10" title="ContainerLstChildModelElementsCompartment" needsTitle="false" node="//@diagram/@childNodes.1" listLayout="false">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getContainerLstChildModelElementsCompartmentFigure" figureQualifiedClassName="org.eclipse.draw2d.RectangleFigure"/>
+    </compartments>
+    <compartments visualID="7004" editPartClassName="IFrameIFrameLstChildModelElementsCompartmentEditPart" itemSemanticEditPolicyClassName="IFrameIFrameLstChildModelElementsCompartmentItemSemanticEditPolicy" canonicalEditPolicyClassName="IFrameIFrameLstChildModelElementsCompartmentCanonicalEditPolicy" childNodes="//@diagram/@childNodes.1 //@diagram/@childNodes.2 //@diagram/@childNodes.3 //@diagram/@childNodes.4 //@diagram/@childNodes.5 //@diagram/@childNodes.6 //@diagram/@childNodes.7 //@diagram/@childNodes.8 //@diagram/@childNodes.9 //@diagram/@childNodes.10" title="IFrameLstChildModelElementsCompartment" needsTitle="false" node="//@diagram/@childNodes.2" listLayout="false">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getIFrameLstChildModelElementsCompartmentFigure" figureQualifiedClassName="org.eclipse.draw2d.RectangleFigure"/>
+    </compartments>
+    <compartments visualID="7005" editPartClassName="IFrameIFrameLstChildModelElementsCompartment2EditPart" itemSemanticEditPolicyClassName="IFrameIFrameLstChildModelElementsCompartment2ItemSemanticEditPolicy" canonicalEditPolicyClassName="IFrameIFrameLstChildModelElementsCompartment2CanonicalEditPolicy" childNodes="//@diagram/@childNodes.1 //@diagram/@childNodes.2 //@diagram/@childNodes.3 //@diagram/@childNodes.4 //@diagram/@childNodes.5 //@diagram/@childNodes.6 //@diagram/@childNodes.7 //@diagram/@childNodes.8 //@diagram/@childNodes.9 //@diagram/@childNodes.10" title="IFrameLstChildModelElementsCompartment" needsTitle="false" node="//@diagram/@childNodes.11" listLayout="false">
+      <diagramRunTimeClass href="platform:/plugin/org.eclipse.gmf.runtime.notation/model/notation.genmodel#//notation/Node"/>
+      <viewmap xsi:type="gmfgen:ParentAssignedViewmap" getterName="getIFrameLstChildModelElementsCompartmentFigure" figureQualifiedClassName="org.eclipse.draw2d.RectangleFigure"/>
+    </compartments>
+    <palette>
+      <groups title="Objects" collapse="true">
+        <entries xsi:type="gmfgen:ToolEntry" title="Blockquote" description="Create new Blockquote" genNodes="//@diagram/@childNodes.9 //@diagram/@childNodes.18"/>
+        <entries xsi:type="gmfgen:ToolEntry" title="Button" description="Create new Button" genNodes="//@diagram/@childNodes.5 //@diagram/@childNodes.14"/>
+        <entries xsi:type="gmfgen:ToolEntry" title="Container" description="Create new Container" genNodes="//@diagram/@childNodes.0 //@diagram/@childNodes.1"/>
+        <entries xsi:type="gmfgen:ToolEntry" title="IFrame" description="Create new IFrame" genNodes="//@diagram/@childNodes.2 //@diagram/@childNodes.11"/>
+        <entries xsi:type="gmfgen:ToolEntry" title="Img" description="Create new Img" genNodes="//@diagram/@childNodes.8 //@diagram/@childNodes.17"/>
+        <entries xsi:type="gmfgen:ToolEntry" title="Input" description="Create new Input" genNodes="//@diagram/@childNodes.4 //@diagram/@childNodes.13"/>
+        <entries xsi:type="gmfgen:ToolEntry" title="Label" description="Create new Label" genNodes="//@diagram/@childNodes.3 //@diagram/@childNodes.12"/>
+        <entries xsi:type="gmfgen:ToolEntry" title="Select" description="Create new Select" genNodes="//@diagram/@childNodes.6 //@diagram/@childNodes.15"/>
+        <entries xsi:type="gmfgen:ToolEntry" title="Table" description="Create new Table" genNodes="//@diagram/@childNodes.7 //@diagram/@childNodes.16"/>
+        <entries xsi:type="gmfgen:ToolEntry" title="Ul" description="Create new Ul" genNodes="//@diagram/@childNodes.10 //@diagram/@childNodes.19"/>
+        <entries xsi:type="gmfgen:ToolEntry" title="UserInterface" description="Create new UserInterface" genNodes="//@diagram/@topLevelNodes.0"/>
+      </groups>
+    </palette>
+    <preferencePages xsi:type="gmfgen:GenStandardPreferencePage" iD="interfaz_modelo.diagram.general" name="Ui_concreta Diagram">
+      <children xsi:type="gmfgen:GenStandardPreferencePage" iD="interfaz_modelo.diagram.appearance" name="Appearance" kind="Appearance"/>
+      <children xsi:type="gmfgen:GenStandardPreferencePage" iD="interfaz_modelo.diagram.connections" name="Connections" kind="Connections"/>
+      <children xsi:type="gmfgen:GenStandardPreferencePage" iD="interfaz_modelo.diagram.printing" name="Printing" kind="Printing"/>
+      <children xsi:type="gmfgen:GenStandardPreferencePage" iD="interfaz_modelo.diagram.rulersAndGrid" name="Rulers And Grid" kind="RulersAndGrid"/>
+    </preferencePages>
+  </diagram>
+  <plugin printingEnabled="true">
+    <requiredPlugins>org.eclipse.gmf.tooling.runtime</requiredPlugins>
+    <requiredPlugins>org.eclipse.draw2d</requiredPlugins>
+  </plugin>
+  <editor/>
+  <navigator>
+    <childReferences child="//@diagram"/>
+    <childReferences parent="//@diagram/@childNodes.1" child="//@diagram/@childNodes.1"/>
+    <childReferences parent="//@diagram/@childNodes.2" child="//@diagram/@childNodes.1"/>
+    <childReferences parent="//@diagram/@childNodes.2" child="//@diagram/@childNodes.2"/>
+    <childReferences parent="//@diagram/@childNodes.2" child="//@diagram/@childNodes.3"/>
+    <childReferences parent="//@diagram/@childNodes.2" child="//@diagram/@childNodes.4"/>
+    <childReferences parent="//@diagram/@childNodes.2" child="//@diagram/@childNodes.5"/>
+    <childReferences parent="//@diagram/@childNodes.2" child="//@diagram/@childNodes.6"/>
+    <childReferences parent="//@diagram/@childNodes.2" child="//@diagram/@childNodes.7"/>
+    <childReferences parent="//@diagram/@childNodes.2" child="//@diagram/@childNodes.8"/>
+    <childReferences parent="//@diagram/@childNodes.2" child="//@diagram/@childNodes.9"/>
+    <childReferences parent="//@diagram/@childNodes.2" child="//@diagram/@childNodes.10"/>
+    <childReferences parent="//@diagram/@childNodes.1" child="//@diagram/@childNodes.2"/>
+    <childReferences parent="//@diagram/@childNodes.1" child="//@diagram/@childNodes.3"/>
+    <childReferences parent="//@diagram/@childNodes.1" child="//@diagram/@childNodes.4"/>
+    <childReferences parent="//@diagram/@childNodes.1" child="//@diagram/@childNodes.5"/>
+    <childReferences parent="//@diagram/@childNodes.1" child="//@diagram/@childNodes.6"/>
+    <childReferences parent="//@diagram/@childNodes.1" child="//@diagram/@childNodes.7"/>
+    <childReferences parent="//@diagram/@childNodes.1" child="//@diagram/@childNodes.8"/>
+    <childReferences parent="//@diagram/@childNodes.1" child="//@diagram/@childNodes.9"/>
+    <childReferences parent="//@diagram/@childNodes.1" child="//@diagram/@childNodes.10"/>
+    <childReferences parent="//@diagram/@childNodes.0" child="//@diagram/@childNodes.1"/>
+    <childReferences parent="//@diagram/@childNodes.0" child="//@diagram/@childNodes.2"/>
+    <childReferences parent="//@diagram/@childNodes.0" child="//@diagram/@childNodes.3"/>
+    <childReferences parent="//@diagram/@childNodes.0" child="//@diagram/@childNodes.4"/>
+    <childReferences parent="//@diagram/@childNodes.0" child="//@diagram/@childNodes.5"/>
+    <childReferences parent="//@diagram/@childNodes.0" child="//@diagram/@childNodes.6"/>
+    <childReferences parent="//@diagram/@childNodes.0" child="//@diagram/@childNodes.7"/>
+    <childReferences parent="//@diagram/@childNodes.0" child="//@diagram/@childNodes.8"/>
+    <childReferences parent="//@diagram/@childNodes.0" child="//@diagram/@childNodes.9"/>
+    <childReferences parent="//@diagram/@childNodes.0" child="//@diagram/@childNodes.10"/>
+    <childReferences parent="//@diagram/@topLevelNodes.0" child="//@diagram/@childNodes.0"/>
+    <childReferences parent="//@diagram/@childNodes.11" child="//@diagram/@childNodes.1"/>
+    <childReferences parent="//@diagram/@childNodes.11" child="//@diagram/@childNodes.2"/>
+    <childReferences parent="//@diagram/@childNodes.11" child="//@diagram/@childNodes.3"/>
+    <childReferences parent="//@diagram/@childNodes.11" child="//@diagram/@childNodes.4"/>
+    <childReferences parent="//@diagram/@childNodes.11" child="//@diagram/@childNodes.5"/>
+    <childReferences parent="//@diagram/@childNodes.11" child="//@diagram/@childNodes.6"/>
+    <childReferences parent="//@diagram/@childNodes.11" child="//@diagram/@childNodes.7"/>
+    <childReferences parent="//@diagram/@childNodes.11" child="//@diagram/@childNodes.8"/>
+    <childReferences parent="//@diagram/@childNodes.11" child="//@diagram/@childNodes.9"/>
+    <childReferences parent="//@diagram/@childNodes.11" child="//@diagram/@childNodes.10"/>
+    <childReferences parent="//@diagram/@topLevelNodes.0" child="//@diagram/@childNodes.11"/>
+    <childReferences parent="//@diagram/@topLevelNodes.0" child="//@diagram/@childNodes.12"/>
+    <childReferences parent="//@diagram/@topLevelNodes.0" child="//@diagram/@childNodes.13"/>
+    <childReferences parent="//@diagram/@topLevelNodes.0" child="//@diagram/@childNodes.14"/>
+    <childReferences parent="//@diagram/@topLevelNodes.0" child="//@diagram/@childNodes.15"/>
+    <childReferences parent="//@diagram/@topLevelNodes.0" child="//@diagram/@childNodes.16"/>
+    <childReferences parent="//@diagram/@topLevelNodes.0" child="//@diagram/@childNodes.17"/>
+    <childReferences parent="//@diagram/@topLevelNodes.0" child="//@diagram/@childNodes.18"/>
+    <childReferences parent="//@diagram/@topLevelNodes.0" child="//@diagram/@childNodes.19"/>
+    <childReferences parent="//@diagram" child="//@diagram/@topLevelNodes.0"/>
+  </navigator>
+  <diagramUpdater/>
+  <propertySheet>
+    <tabs xsi:type="gmfgen:GenStandardPropertyTab" iD="appearance"/>
+    <tabs xsi:type="gmfgen:GenStandardPropertyTab" iD="diagram"/>
+    <tabs xsi:type="gmfgen:GenCustomPropertyTab" iD="domain" label="Core">
+      <filter xsi:type="gmfgen:TypeTabFilter">
+        <types>org.eclipse.gmf.runtime.notation.View</types>
+        <types>org.eclipse.gef.EditPart</types>
+        <generatedTypes>abstractNavigatorItem</generatedTypes>
+      </filter>
+    </tabs>
+  </propertySheet>
+  <domainGenModel href="ui_concreta.genmodel#/"/>
+  <labelParsers extensibleViaService="true">
+    <implementations xsi:type="gmfgen:PredefinedParser" uses="//@diagram/@childNodes.6/@labels.0/@modelFacet //@diagram/@childNodes.2/@labels.0/@modelFacet //@diagram/@childNodes.11/@labels.0/@modelFacet //@diagram/@childNodes.15/@labels.0/@modelFacet //@diagram/@topLevelNodes.0/@labels.0/@modelFacet"/>
+  </labelParsers>
+  <contextMenus context="//@diagram">
+    <items xsi:type="gmfgen:LoadResourceAction"/>
+  </contextMenus>
+</gmfgen:GenEditorGenerator>

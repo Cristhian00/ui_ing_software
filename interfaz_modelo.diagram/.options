@@ -1,0 +1,7 @@
+# Tracing options for the interfaz_modelo.diagram plug-in
+
+# Common issues
+interfaz_modelo.diagram/debug=false
+
+# Visual IDs
+interfaz_modelo.diagram/debug/visualID=false
