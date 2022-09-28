@@ -1,2 +1,2 @@
 # Ui_ing_software
-Parte del proyecto de Software por modelos
+Este repositorio tendrá todo el codigo de la ui de ingeniería de software dirigida por modelos
